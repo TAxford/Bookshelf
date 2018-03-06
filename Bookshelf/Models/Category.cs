@@ -13,5 +13,7 @@ namespace Bookshelf.Models
         public string Name { get; set; }
 
 
+        //Navagation Property
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
